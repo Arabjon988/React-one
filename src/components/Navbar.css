@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    user-select: unset;
+}
+/* 
+li{
+    list-style: ;
+} */
+
+a{
+    text-decoration: none;
+}
+.container__nav{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 15vh;
+}
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo h2{
+    color: #2b2b2b;
+}
+
+.collect{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 50px;
+}
+
+.item{
+    padding: 15px;
+    color: #1d4d4f;
+    list-style: none;
+    font-size: 14px;
+}
+.item:hover{
+   transform: scale(1.025);
+}
+
+
+.container__nav input{
+    width: 30px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.app-logo{
+    align-items: center;
+    width: 850px;
+    height: 300px;
+    margin-left: 100px;
+    background-color: rgb(226, 218, 224);
+    margin-top: 105px;
+}
+
+.section{
+    margin-left: 200px;
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: auto;
+}
+
+.section__onePart{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.collection{
+    margin-left:300px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.item1{
+    list-style: none;
+}
+
+.section__onePart h2{
+    font-size: 62px;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.section__info p i{
+    color: #7FB800;
+}
+
+.section__info p{
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.section__info{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.section__document{
+    position: relative;
+}
+
+.section__document span{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top:15px ;
+    padding-bottom:25px ;
+    line-height: 20px;
+}
+
+
+.app__logo{
+    width: 650px;
+    height: 200px;
+    background-color: rgb(226, 218, 224);
+}
+
+
+.part{
+    margin: 15px 15px 20px 0px;
+}
+
+.section__second{
+    display: flex;
+    position: relative;
+    margin: 25px 0px;
+}
+
+.app_logo{
+    width: 80px;
+    height: auto;
+    background-color: rgb(10, 7, 14);
+}
+
+span i{
+    color: #7FB800;
+    font-size: 18px;
+}
+
+
+.second__part{
+    display: grid;
+    position: relative;
+    line-height: 35px;
+}
+
+.section__th{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_app{
+    width: 200px;
+    height: 250px;
+    margin: 20px 20px 20px 0px;
+    background-color: rgb(226, 218, 224);
+    
+}
+
+.three p{
+    margin-left: 15px;
+    margin: 10px 0px;
+}
+
+.btn_info{
+    width: 650px;
+    position: relative;
+    justify-content: center;
+    border-radius: 20px;
+    height: 45px;
+    margin: 15px 0px;
+    background-color: #aaa1f5;
+}
+
+.btn_info button{
+    outline: none;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50px;
+    width: auto;
+    top: 5px;
+    left: 10px;
+    padding: 3px;
+    margin: 5px 20px;
+}
+
+.acc{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid #E2F6B9;
+}
+
+.ap-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px 0px 10px 20px;
+    background-color: rgb(226, 218, 224);
+}
+
+.post_comment{
+padding: 25px;
+}
+
+.account{
+    display: flex;
+}
+
+.account p{
+    margin: 5px 20px 10px 0px;
+}
+
+.account p i{
+    color: #7FB800;
+}
+
+.name{
+    width: 320px;
+    height: 40px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #E2F6B9;
+    padding: 10px 5px 10px 20px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    outline: none;
+}
+
+
+.email{
+    width: 320px;
+    height: 40px;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #E2F6B9;
+    padding: 10px 5px 10px 20px;
+    background-color: #f2f2f2;
+    outline: none;
+}
+
+.message{
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    width: 650px;
+    height: 100px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid #E2F6B9;
+    padding: 5px 5px 40px 20px;
+}
+
+.add button{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(334.24deg, #7FB800 -9.84%, #0F9B0F 121.28%);
+    box-shadow: 0px 4px 15px rgba(127, 184, 0, 0.401852);
+    border-radius: 30px;
+    justify-content: end;
+    margin: 20px 0px 50px 450px;
+    outline: none;
+}
+
+.link{
+    width: 200px;
+    height: 30px;
+}
+
+.footer{
+    margin: 30px 50px 0px 70px;
+    align-items: center;
+    width: 850px;
+    height: 350px;
+    display: flex;
+    background-color: rgb(226, 218, 224);
+}
+.footer__onePart{
+    padding: 30px;
+    width: 650px;
+    height: 300px;
+    text-align: center;
+    margin-right: 30px;
+    background-image: url(../example.png);
+
+}
+
+.footer__onePart h2{
+    margin-bottom: 25px;
+}
+
+.footer__onePart button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    outline: none;
+    border-radius: 5px;
+    margin: 30px 10px;
+}
+.footer__secondPart{
+    width: 450px;
+    height: 400px;
+    background: linear-gradient(334.24deg, #7FB800 -9.84%, #0F9B0F 121.28%);
+    border-radius: 50px 50px 0px 0px;
+}
+
+.footer__secondPart h2{
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 35px;
+margin-top: 55px;
+text-align: center;
+}
+
+.footer__secondPart h3{
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer__secondPart p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.email-footer{
+    border-radius: 30px;
+    width: 220px;
+    background: linear-gradient(334.24deg, #7FB800 -9.84%, #0F9B0F 121.28%);
+    outline: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 5px 10px 20px;
+    align-items: center;
+    margin: 30px 55px;
+    height: 30px;
+}
+
+.footer__secondPart button{
+    width: 150px;
+    height: 31px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    background: #FAB522;
+    border-radius: 30px;
+    margin: 17px 100px;
+    padding: 5px 15px;
+}
